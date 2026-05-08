@@ -4,6 +4,19 @@
     <ProjectReference Include="..\InventorySystem.Domain\InventorySystem.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.2" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Behaviors\" />
+    <Folder Include="Common\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Features\" />
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
