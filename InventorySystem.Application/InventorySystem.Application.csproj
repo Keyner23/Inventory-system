@@ -13,8 +13,6 @@
     <Folder Include="Behaviors\" />
     <Folder Include="Common\" />
     <Folder Include="Dtos\" />
-    <Folder Include="Features\" />
-    <Folder Include="Interfaces\" />
   </ItemGroup>
 
   <PropertyGroup>
