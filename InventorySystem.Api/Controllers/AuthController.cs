@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using InventorySystem.Application.Features.Auth;
-using Microsoft.AspNetCore.Identity.Data;
+using LoginRequest = InventorySystem.Application.Features.Auth.LoginRequest;
 using RegisterRequest = InventorySystem.Application.Features.Auth.RegisterRequest;
 
 
